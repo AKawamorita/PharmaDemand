@@ -8,9 +8,7 @@ O projeto foi estruturado em duas frentes: **(1) modelagem, avaliação e treina
 
 **Estado atual (30/10/2026):** existem experimentos e avaliações de modelos individuais; a versão final do stacking e o ganho fora da amostra **ainda não foram demonstrados**. Os estados do roadmap são preliminares e devem ser conferidos com o repositório antes de uma publicação definitiva.
 
-![Roadmap do PharmaMed](docs/roadmap.png)
-
- [Ver arquitetura](docs/Roadmap.png)
+![Roadmap do PharmaMed](docs/Roadmap.png)
 
 ## 1. Problema de negócio
 
