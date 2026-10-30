@@ -6,7 +6,7 @@ O **PharmaMed (PharmaDemand)** é um projeto de previsão de vendas diárias no 
 
 O projeto foi estruturado em duas frentes: **(1) modelagem, avaliação e treinamento** e **(2) disponibilização das previsões, visualização, explicações e MLOps**. A segunda frente permanece no roadmap.
 
-**Estado atual (30/10/2026):** existem experimentos e avaliações de modelos individuais; a versão final do stacking e o ganho fora da amostra **ainda não foram demonstrados**. Os estados do roadmap são preliminares e devem ser conferidos com o repositório antes de uma publicação definitiva.
+**Estado atual (29/10/2026):** existem experimentos e avaliações de modelos individuais; a versão final do stacking e o ganho fora da amostra estão sendo avaliados, alguns ajustes estão sendo realizados. Os status do roadmap estão em constante atualização.
 
 ![Roadmap do PharmaMed](docs/Roadmap.png)
 
@@ -38,8 +38,6 @@ A fonte utilizada é o conjunto público **[Pharma Sales Data](https://www.kaggl
 **Por que Ridge aparece duas vezes?** O **Ridge-base** é um regressor linear treinado com atributos temporais, usado como um quarto previsor e *baseline* interpretável. O **Ridge-metamodelo** recebe as previsões **out-of-fold** dos quatro modelos-base, aprende a combiná-las e passa por uma validação separada. São instâncias distintas, com entradas diferentes. Sua contribuição adicional precisará ser verificada por teste de ablação.
 
 ## 3. Arquitetura proposta
-
-![Arquitetura de Stacking](docs/arquitetura_stacking.png)
 
 ```mermaid
 flowchart TD
