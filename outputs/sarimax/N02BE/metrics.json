@@ -1,0 +1,81 @@
+{
+  "dataset": "salesdaily.csv",
+  "category": "N02BE",
+  "train_start": "2014-01-02",
+  "train_end": "2019-04-08",
+  "test_start": "2019-04-09",
+  "test_end": "2019-10-08",
+  "train_days": 1923,
+  "test_days": 183,
+  "model": {
+    "order": [
+      1,
+      1,
+      1
+    ],
+    "seasonal_order": [
+      1,
+      0,
+      0,
+      7
+    ],
+    "trend": "n",
+    "exog": [
+      "is_weekend",
+      "annual_sin",
+      "annual_cos"
+    ],
+    "converged": true,
+    "aic_train": 15123.3532
+  },
+  "evaluations": {
+    "holdout_6_meses": {
+      "sarimax": {
+        "n_predictions": 183,
+        "mae": 8.0938,
+        "rmse": 11.0734,
+        "wape_pct": 35.2973,
+        "smape_pct": 37.3376
+      },
+      "seasonal_naive": {
+        "n_predictions": 183,
+        "mae": 11.2975,
+        "rmse": 14.9074,
+        "wape_pct": 49.2686,
+        "smape_pct": 49.2979
+      }
+    },
+    "backtest_7_dias": {
+      "sarimax": {
+        "n_predictions": 183,
+        "mae": 7.1158,
+        "rmse": 9.579,
+        "wape_pct": 31.0321,
+        "smape_pct": 32.2481
+      },
+      "seasonal_naive": {
+        "n_predictions": 183,
+        "mae": 9.3052,
+        "rmse": 12.455,
+        "wape_pct": 40.5801,
+        "smape_pct": 42.5951
+      }
+    },
+    "backtest_15_dias": {
+      "sarimax": {
+        "n_predictions": 183,
+        "mae": 7.3419,
+        "rmse": 9.7697,
+        "wape_pct": 32.0184,
+        "smape_pct": 33.0653
+      },
+      "seasonal_naive": {
+        "n_predictions": 183,
+        "mae": 9.4057,
+        "rmse": 12.8622,
+        "wape_pct": 41.0184,
+        "smape_pct": 42.2147
+      }
+    }
+  }
+}

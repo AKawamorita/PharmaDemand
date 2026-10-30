@@ -1,0 +1,15 @@
+{
+  "best_params": {
+    "model__changepoint_prior_scale": 0.01,
+    "model__seasonality_mode": "additive",
+    "model__seasonality_prior_scale": 1.0
+  },
+  "best_score": -10.656142184318579,
+  "scoring": "neg_root_mean_squared_error",
+  "n_splits": 3,
+  "forecast_horizon": 15,
+  "target_col": "quantity",
+  "date_col": "date",
+  "series_col": null,
+  "cv_strategy": "expanding_window_fixed_future_horizon"
+}

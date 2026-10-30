@@ -1,0 +1,13 @@
+﻿rank_test_score,mean_test_score,std_test_score,params
+1,-10.656142184318579,0.6902794112228087,"{'model__changepoint_prior_scale': 0.01, 'model__seasonality_mode': 'additive', 'model__seasonality_prior_scale': 1.0}"
+2,-10.685055975435025,0.6915842253349411,"{'model__changepoint_prior_scale': 0.01, 'model__seasonality_mode': 'additive', 'model__seasonality_prior_scale': 5.0}"
+3,-10.773555448018092,0.44341909174199184,"{'model__changepoint_prior_scale': 0.01, 'model__seasonality_mode': 'multiplicative', 'model__seasonality_prior_scale': 5.0}"
+4,-10.819148981021707,0.39476828436643924,"{'model__changepoint_prior_scale': 0.01, 'model__seasonality_mode': 'multiplicative', 'model__seasonality_prior_scale': 1.0}"
+5,-11.955925254063663,0.42391279808790167,"{'model__changepoint_prior_scale': 0.05, 'model__seasonality_mode': 'additive', 'model__seasonality_prior_scale': 5.0}"
+6,-12.009988152607079,0.45458279232355675,"{'model__changepoint_prior_scale': 0.05, 'model__seasonality_mode': 'additive', 'model__seasonality_prior_scale': 1.0}"
+7,-12.03568718183024,0.511753452476091,"{'model__changepoint_prior_scale': 0.05, 'model__seasonality_mode': 'multiplicative', 'model__seasonality_prior_scale': 5.0}"
+8,-12.044927160447935,0.5214722162089139,"{'model__changepoint_prior_scale': 0.05, 'model__seasonality_mode': 'multiplicative', 'model__seasonality_prior_scale': 1.0}"
+9,-12.25199264186648,0.5781638289949624,"{'model__changepoint_prior_scale': 0.1, 'model__seasonality_mode': 'additive', 'model__seasonality_prior_scale': 1.0}"
+10,-12.265835568961569,0.601934307157797,"{'model__changepoint_prior_scale': 0.1, 'model__seasonality_mode': 'additive', 'model__seasonality_prior_scale': 5.0}"
+11,-12.480796927573776,0.69098102618741,"{'model__changepoint_prior_scale': 0.1, 'model__seasonality_mode': 'multiplicative', 'model__seasonality_prior_scale': 5.0}"
+12,-12.496216689878048,0.7071440953580047,"{'model__changepoint_prior_scale': 0.1, 'model__seasonality_mode': 'multiplicative', 'model__seasonality_prior_scale': 1.0}"

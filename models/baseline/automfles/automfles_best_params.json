@@ -1,0 +1,17 @@
+{
+  "best_params": {
+    "model__metric": "mse",
+    "model__n_windows": 2,
+    "model__season_length": [
+      7
+    ]
+  },
+  "best_score": -11.894093857490248,
+  "scoring": "neg_root_mean_squared_error",
+  "n_splits": 3,
+  "forecast_horizon": 15,
+  "date_col": "date",
+  "series_col": null,
+  "target_col": "quantity",
+  "cv_strategy": "expanding_window_time_series"
+}

@@ -1,0 +1,32 @@
+{
+    "best_params": {
+        "model__colsample_bytree": 0.8,
+        "model__learning_rate": 0.03,
+        "model__max_depth": 3,
+        "model__min_child_weight": 5,
+        "model__n_estimators": 300,
+        "model__reg_lambda": 5.0,
+        "model__subsample": 0.8
+    },
+    "best_score": -14.321981208262061,
+    "scoring": "neg_root_mean_squared_error",
+    "n_splits": 3,
+    "target_col": "quantity",
+    "numeric_features": [
+        "qty_lag_origin",
+        "qty_lag_origin_7",
+        "qty_roll_mean_7",
+        "qty_roll_std_7",
+        "qty_roll_mean_28",
+        "qty_roll_std_28",
+        "qty_mean_ratio_7_28",
+        "qty_last_zscore_28",
+        "qty_zero_ratio_28",
+        "weekday",
+        "annual_sin",
+        "annual_cos"
+    ],
+    "categorical_features": [],
+    "date_col": "date",
+    "cv_strategy": "expanding_window_by_unique_date"
+}

@@ -1,0 +1,20 @@
+{
+  "best_params": {
+    "model__alpha": 10.0,
+    "model__fit_intercept": true
+  },
+  "best_score": -11.160399818560235,
+  "scoring": "neg_root_mean_squared_error",
+  "n_splits": 3,
+  "gap_days": 7,
+  "target_col": "quantity",
+  "numeric_features": [
+    "pred_lightgbm",
+    "pred_xgboost",
+    "pred_sarimax"
+  ],
+  "categorical_features": [],
+  "date_col": "date",
+  "cv_strategy": "expanding_window_by_unique_forecast_origin_with_gap",
+  "source_expectation": "OOF predictions of base models (never in-sample)"
+}

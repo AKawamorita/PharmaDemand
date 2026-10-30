@@ -1,0 +1,4 @@
+feature,coefficient,raw_coefficient
+numeric__pred_lightgbm,0.7759597721017562,0.07611845571282083
+numeric__pred_sarimax,4.4917542179246155,0.5802877880795422
+numeric__pred_xgboost,2.0518645961722917,0.22142300289398667

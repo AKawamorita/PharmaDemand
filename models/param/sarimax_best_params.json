@@ -1,0 +1,20 @@
+{
+  "category": "N02BE",
+  "horizon_days": 15,
+  "best_params": {
+    "order": [
+      2,
+      0,
+      1
+    ],
+    "seasonal_order": [
+      0,
+      1,
+      1,
+      7
+    ],
+    "trend": "n",
+    "maxiter": 400
+  },
+  "best_cv_rmse": 15.949455003038056
+}

@@ -1,0 +1,15 @@
+{
+  "best_params": {
+    "model__decomposition_type": "additive",
+    "model__model": null,
+    "model__season_length": 7
+  },
+  "best_score": -11.962437224980365,
+  "scoring": "neg_root_mean_squared_error",
+  "n_splits": 3,
+  "forecast_horizon": 15,
+  "target_col": "quantity",
+  "date_col": "date",
+  "series_col": null,
+  "cv_strategy": "expanding_window_fixed_future_horizon"
+}

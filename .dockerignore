@@ -1,0 +1,54 @@
+# Segredos
+.env
+.env.*
+!.env.example
+
+# Python
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Dados e arquivos gerados
+data/
+logs/
+*.log
+*.jsonl
+chroma_db/
+redis-data/
+mongodb-data/
+models/
+.cache/
+
+# Testes e documentação
+tests/
+docs/
+site/
+mkdocs.yml
+notebooks/
+*.ipynb
+.ipynb_checkpoints/
+
+# Build
+build/
+dist/
+*.egg-info/
+
+# Git e IDE
+.git/
+.github/
+.gitignore
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Docker
+docker-compose*.yml
+docker-stack*.yml
