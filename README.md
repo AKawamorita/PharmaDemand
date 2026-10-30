@@ -1,4 +1,4 @@
-# PharmaMed — Forecasting de Vendas Farmacêuticas com Ensemble Stacking
+# PharmaDemand — Forecasting de Vendas Farmacêuticas com Ensemble Stacking
 
 > **Projeto de portfólio em desenvolvimento** · Machine Learning · Séries temporais · Detecção de anomalias · Ensemble Learning
 
@@ -10,7 +10,7 @@ O projeto foi estruturado em duas frentes: **(1) modelagem, avaliação e treina
 
 ![Roadmap do PharmaMed](docs/roadmap.png)
 
- [Ver arquitetura](docs/arquitetura_stacking.png)
+ [Ver arquitetura](docs/Roadmap.png)
 
 ## 1. Problema de negócio
 
@@ -116,7 +116,7 @@ A camada de engenharia de atributos contempla:
 | Ridge-base | *.** | *.** | *.** | Teste anteriormente relatado |
 | Stacking + Ridge-meta** | 5.55 | 8.14 | 0.53 | Teste anteriormente relatado D+7 |
 
-![Resultados premilinares](docs/resultados.png)
+![Resultados premilinares](docs/Resultados.png)
 
 > **Atenção:** números provenientes de execuções relatadas em momentos diferentes; **Não interpretar a tabela como um ranking científico definitivo nem como resultado de produção.**
 
