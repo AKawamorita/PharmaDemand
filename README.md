@@ -138,7 +138,7 @@ A camada de engenharia de atributos contempla:
 
 ## 7. Organização sugerida do repositório
 
-A estrutura a seguir é uma **proposta** e deve ser adaptada à árvore de arquivos efetivamente existente:
+A estrutura a seguir é a minha **proposta** estou realizando algumas alterações que devem ser replicadas em breve (04/11/2026)
 
 ```text
 PharmaMed/
@@ -161,7 +161,6 @@ PharmaMed/
 └── requirements.txt           # Se adotado no projeto
 ```
 
-Não estão incluídos aqui comandos de execução específicos porque dependem da estrutura real do código; não seria correto inventar endpoints ou scripts prontos.
 
 ## 8. Tecnologias
 
@@ -173,8 +172,7 @@ Não estão incluídos aqui comandos de execução específicos porque dependem 
 
 ## 09. Limitações
 
-Este projeto é **experimental e educacional**, baseado em dados públicos de vendas. Previsões não devem ser tratadas como decisões automáticas de aquisição, prescrição ou fabricação de medicamentos. Um sistema industrial exigiria dados adicionais de estoque, BOM, fornecedores, tempos de reposição, validade, capacidade e qualidade, além de validação operacional e revisão humana.
+Este projeto é **experimental e educacional**, baseado em dados públicos de vendas. Previsões não devem ser tratadas como decisões automáticas de aquisição, prescrição ou fabricação de medicamentos. 
 
-**Dataset:** [Kaggle — Pharma Sales Data](https://www.kaggle.com/datasets/milanzdravkovic/pharma-sales-data). Verifique seus termos de uso antes de redistribuir os arquivos brutos.
-
+**Dataset:** [Kaggle — Pharma Sales Data](https://www.kaggle.com/datasets/milanzdravkovic/pharma-sales-data). 
 
